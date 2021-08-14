@@ -1,0 +1,86 @@
+{
+	"start": [
+		[
+			{
+				"text": "🇬🇧",
+				"callback_data": "inline|en"
+			},
+			{
+				"text": "🇷🇺",
+				"callback_data": "inline|ru"
+			},
+			{
+				"text": "🇯🇵",
+				"callback_data": "inline|jp"
+			}
+		]
+	],
+	"after_start": {
+		"en": [
+			[
+				{
+					"text": "I want 🐲",
+					"callback_data": "language|en|want"
+				},
+				{
+					"text": "Has already",
+					"callback_data": "language|en|has"
+				}
+			],
+			[
+				{
+					"text": "Social 🐉",
+					"callback_data": "language|en|social"
+				},
+				{
+					"text": "About DDWay",
+					"callback_data": "language|en|about"
+				}
+			]
+		],
+		"ru": [
+			[
+				{
+					"text": "I want 🐲",
+					"callback_data": "language|ru|want"
+				},
+				{
+					"text": "Has already",
+					"callback_data": "language|ru|has"
+				}
+			],
+			[
+				{
+					"text": "Social 🐉",
+					"callback_data": "language|ru|social"
+				},
+				{
+					"text": "About DDWay",
+					"callback_data": "language|ru|about"
+				}
+			]
+		],
+		"jp": [
+			[
+				{
+					"text": "I want 🐲",
+					"callback_data": "language|jp|want"
+				},
+				{
+					"text": "Already have",
+					"callback_data": "language|jp|has"
+				}
+			],
+			[
+				{
+					"text": "Social 🐉",
+					"callback_data": "language|jp|social"
+				},
+				{
+					"text": "About DDWay",
+					"callback_data": "language|jp|about"
+				}
+			]
+		]
+	}
+}
