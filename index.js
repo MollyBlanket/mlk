@@ -3,7 +3,7 @@ const text = require('./text.json');
 const inline_keyboard = require('./inline_keyboard.json');
 const interface = require('./bot_client.js');
 
-const bot = new Telegraf('1674403924:AAEokf8FIYsGtyN3LKGEugOb_RsirS9EVcQ');
+const bot = new Telegraf('токен');
 const BotInterface = new interface(text, inline_keyboard);
 
 bot.command(['language', 'start'], (ctx) => {
